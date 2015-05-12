@@ -1,0 +1,12 @@
+{application, sigsegv,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { sigsegv_app, []}},
+  {env, []}
+ ]}.
